@@ -48,8 +48,7 @@ img {
   flex-direction: column;
   gap: 16px;
 }
-.user-links li {
-}
+
 .user-links li a {
   display: block;
   text-decoration: none;
@@ -62,6 +61,12 @@ img {
   text-align: center;
   font-weight: bold;
 }
+.user-links li a:hover {
+  color:hsl(0, 0%, 20%);
+  background-color:hsl(75, 94%, 57%) ;
+
+}
+
 .user .name {
   font-size: 24px;
   margin-bottom: 10px;
