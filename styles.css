@@ -6,7 +6,8 @@
   color: white;
   font-size: 14px;
 }
-p, h2{
+p,
+h2 {
   text-align: center;
 }
 html,
@@ -60,11 +61,11 @@ img {
   padding-bottom: 12px;
   text-align: center;
   font-weight: bold;
+  transition: all 400ms ease-in-out;
 }
 .user-links li a:hover {
-  color:hsl(0, 0%, 20%);
-  background-color:hsl(75, 94%, 57%) ;
-
+  color: hsl(0, 0%, 20%);
+  background-color: hsl(75, 94%, 57%);
 }
 
 .user .name {
@@ -75,5 +76,3 @@ img {
   color: hsl(75, 94%, 57%);
   font-weight: 600;
 }
-
-
